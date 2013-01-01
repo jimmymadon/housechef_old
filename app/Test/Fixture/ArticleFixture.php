@@ -14,7 +14,7 @@ class ArticleFixture extends CakeTestFixture {
   
   public $records = array(
     array('id' => 1, 'title' => 'First Article', 'body' => 'First Article Body', 'published' => '1'),
-    array('id' => 2, 'title' => 'Second Article', 'body' => 'Second Article Body', 'published' => '1'),
+    array('id' => 2, 'title' => 'Second Article', 'body' => 'Second Article Body', 'published' => '0'),
     array('id' => 3, 'title' => 'Third Article', 'body' => 'Third Article Body', 'published' => '1')
   );
   
