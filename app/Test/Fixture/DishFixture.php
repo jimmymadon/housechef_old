@@ -32,15 +32,35 @@ class DishFixture extends CakeTestFixture {
  */
 	public $records = array(
 		array(
-			'id' => 1,
-			'chef_id' => 1,
-			'title' => 'Lorem ipsum dolor sit amet',
-			'description' => 'Lorem ipsum dolor sit amet, aliquet feugiat. Convallis morbi fringilla gravida, phasellus feugiat dapibus velit nunc, pulvinar eget sollicitudin venenatis cum nullam, vivamus ut a sed, mollitia lectus. Nulla vestibulum massa neque ut et, id hendrerit sit, feugiat in taciti enim proin nibh, tempor dignissim, rhoncus duis vestibulum nunc mattis convallis.',
-			'quantity' => 1,
-			'price' => 1,
+			'id' => 'dish-1',
+			'chef_id' => 'jimmy-chef-1',
+			'title' => 'Jimmy-1\'s first dish.',
+			'description' => 'This dish has 10 items.',
+			'quantity' => 10,
+			'price' => 45,
 			'created' => '2013-01-02 20:24:15',
 			'modified' => '2013-01-02 20:24:15'
 		),
+		array(
+      'id' => 'dish-2',
+      'chef_id' => 'jimmy-chef-1',
+      'title' => 'Jimmy-1\'s second dish.',
+      'description' => 'This dish has 20 items.',
+      'quantity' => 10,
+      'price' => 45,
+      'created' => '2013-01-02 20:24:15',
+      'modified' => '2013-01-02 20:24:15'
+    ),
+    array(
+      'id' => 'dish-3',
+      'chef_id' => 'jimmy-chef-1',
+      'title' => 'Jimmy-1\'s third dish.',
+      'description' => 'This dish has 30 items.',
+      'quantity' => 10,
+      'price' => 45,
+      'created' => '2013-01-02 20:24:15',
+      'modified' => '2013-01-02 20:24:15'
+    )
 	);
 
 }

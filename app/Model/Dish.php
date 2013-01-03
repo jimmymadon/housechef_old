@@ -71,4 +71,16 @@ class Dish extends AppModel {
 			'order' => ''
 		)
 	);
+  
+  public function afterSave() {
+    $result = $this->Dish->findById($this->DishId);
+    $this->Dish->updateQuantity($this->id, $qty);
+  }
+  
+  public function updateQuantity($id, $qty) {
+    // find record matching id
+    // subtract qty from it
+    // return result
+    // save result
+  }
 }
